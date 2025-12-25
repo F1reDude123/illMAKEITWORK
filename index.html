@@ -1,0 +1,9 @@
+<script>
+  setInterval(function() {
+    if (Notification.permission != "granted") {
+      Notification.requestPermission();
+    } else {
+      var not = new Notification("THEN DO IT", {body: "Dont forget, write it"});
+    }
+  }, 60000);
+</script>
