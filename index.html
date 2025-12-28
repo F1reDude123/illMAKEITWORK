@@ -1,7 +1,7 @@
 <script>
   Notification.requestPermission();
   setInterval(function() {
-    if (window.location.includes("discord+memes") || window.location.includes("river.maxbittker.com")) {
+    if (window.location.href.includes("discord+memes") || window.location.href.includes("river.maxbittker.com")) {
       var not = new Notification("RED", {body: "Is this really the path you want to go down?"});
       not.onclick = window.close();
     }
