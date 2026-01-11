@@ -1,14 +1,5 @@
 <script>
 setInterval(function() {
-	var blocked = [
-    	"river.maxbittker.com",
-        "discord+memes",
-        "gemini.google.com"
-    ];
-    blocked.forEach(e => {
-    	if (window.location.href.includes(e)) {
-        	document.documentElement.innerHTML = `<div style="background:#f00;position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;color:#fff;font-size:200px;">HOW DARE YOU ASSUME THIS DISGUSTING BEHAVIOR IS ACCEPTABLE! YOU SHOULD BE ASHAMED! THIS IS WEEBFUL DEGENERACY! THE THING YOU SWORE NOT TO BE! YOU ARE AN INTELLIGENT BEING! PROVE IT!</div>`;
-        }
-    });
-}, 10);
+	var not = new Notification("Stop and think");
+},60000);
 </script>
